@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="stylesheet" href="belajar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
 </head>
 
@@ -35,11 +36,19 @@
         <div class="home-whole">
             <div class="home-kiri">
                 <div class="home-kiri-ats">
-                    <img src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/20/00/a2000099/img/en/a2000099_main.jpg?20201225090446" alt="gambar-kiri" id="gbr-kiri-osaka">
-                    <p>"Liburan jadi menyenangkan bersama Travel Agentku.</p>
-                    <img src="" alt="" id="">
-                    <p>Florence Hughes</p>
-                    <p>Ibu Rumah Tangga, 28</p>
+                    <div class="img-review">
+                        <img src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/20/00/a2000099/img/en/a2000099_main.jpg?20201225090446" alt="gambar-kiri" id="gbr-kiri-osaka">
+                        <p>"Liburan jadi menyenangkan bersama Travel Agentku.</p>
+                    </div>
+                   
+                    <div class="profile">
+                        <span class="material-symbols-outlined">person</span>
+                        <div class="personal-profile">
+                            <p class="profile-name">Florence Hughes</p>
+                            <p class="profile-occupation">Ibu Rumah Tangga, 28</p>
+                        </div>
+                    </div>
+                    <hr>
                 </div>
                 <div class="home-kiri-bwh">
                     <p>Use this space to provide users
@@ -58,6 +67,29 @@
                 <h1>Contact Us</h1>
                 <p>Sales akan</p>
             </div>
+            <form>
+                <p>Your name:</p>
+                <input placeholder="First and last name" type="text" name="nama" id="input-name">
+                <p>Email adress:</p>
+                <input placeholder="example@email.com" type="text" name="email-address" id="input-email">
+                <p>What are you interested in?</p>
+                <select placeholder="Select option">
+                    <option>Travelling</option>
+                    <option>Culinary</option>
+                    <option>Culture</option>
+                    <option>History</option>
+                    <option>Shopping</option>
+                </select>
+
+                    <div class="tap-gender">
+                        <input type="radio" name="jenis-kelamin" id="tap-male">
+                        <label for="tap-male">Laki-laki</label>
+                        <input type="radio" name="jenis-kelamin" id="tap-female">
+                        <label for="tap-female">Perempuan</label>
+                    </div>
+            </form>
+
+
         </div>
     </section>
         

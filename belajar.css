@@ -68,14 +68,6 @@ time, mark, audio, video {
     display: flex;
 }
 
-.home-kiri {
-    flex: 1;
-}
-
-.home-kanan {
-    flex: 1;
-}
-
 .judul-awal {
     text-align: center;
 }
@@ -95,10 +87,62 @@ time, mark, audio, video {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.home-kiri {
+    flex: 1;
+}
+
+.home-kanan {
+    flex: 1;
+}
+
+.home-kiri-ats {
+    display: grid;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
 #gbr-kiri-osaka {
     width: 500px;
     object-fit: cover;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1,5/1;
+}
+
+.material-symbols-outlined {
+    background-color: gainsboro;
+    border-radius: 50px;
+    padding: 5px;
+    
+}
+
+.img-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    /* border-bottom: 2px solid gray; */
+}
+
+.personal-profile {
+    margin: 0px 0px 0px 10px;
+}
+
+.profile-name {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.profile-occupation {
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    width: 40%;
 }
 
 
