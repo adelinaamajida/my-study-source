@@ -88,12 +88,9 @@ time, mark, audio, video {
 }
 
 .home-kiri {
-    flex: 1;
+    flex: 1.5;
 }
 
-.home-kanan {
-    flex: 1;
-}
 
 .home-kiri-ats {
     display: grid;
@@ -146,4 +143,65 @@ hr {
 }
 
 
+/* HOME KANAN */
 
+
+.home-kanan {
+    flex: 1;
+}
+
+.container-home-kanan {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    margin-right: 300px;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.container-home-kanan > h1{
+    margin: 10px 0px 0px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-home-kanan > p{
+    margin: 10px 0px 50px 10px;
+}
+
+.container-home-kanan > form{
+    margin: 10px;
+}
+
+#input-name {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+#input-email {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+#interest-option {
+    height: 36px;
+    width: 258px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+#button-send {
+    height: 36px;
+    width: 258px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 10px;
+    background-color: darkblue;
+}
