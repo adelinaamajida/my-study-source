@@ -205,3 +205,194 @@ hr {
     margin: 10px 0px 10px 10px;
     background-color: darkblue;
 }
+
+
+/* SECTION OUR PACKAGE */
+.our-package {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    padding: 60px 0px 60px 0px;
+    background-color: #f2f2f2;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+}
+
+/* CARD 1 */
+/* BALI CARD */
+.card-1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bali-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.bali-card-1 {
+    display: flex;
+}
+
+.bali-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bali-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* JAPAN CARD */
+.japan-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+.japan-card-1 {
+    display: flex;
+}
+
+.japan-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.japan-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* SINGAPORE CARD */
+.singapore-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+.singapore-card-1 {
+    display: flex;
+}
+
+.singapore-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.singapore-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* CARD 2 */
+/* BANDUNG CARD */
+.card-2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bandung-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.bandung-card-1 {
+    display: flex;
+}
+
+.bandung-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bandung-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* SURABAYA CARD */
+.surabaya-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+.surabaya-card-1 {
+    display: flex;
+}
+
+.surabaya-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.surabaya-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* THIRD FEATURE CARD */
+.thirdfeature-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+.thirdfeature-card-1 {
+    display: flex;
+}
+
+.thirdfeature-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.thirdfeature-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
